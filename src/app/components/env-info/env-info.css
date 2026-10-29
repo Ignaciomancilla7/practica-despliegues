@@ -1,12 +1,19 @@
-.env-container {
+.card {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
   text-align: center;
   font-family: Arial, sans-serif;
-  margin-top: 50px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
 }
-.badge {
-  padding: 20px;
-  border-radius: 8px;
+
+.env {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
   color: white;
-  display: inline-block;
-  background-color: #28a745; /* Verde para producción */
+  border-radius: 8px;
+  background-color: green; /* PROD = verde */
 }

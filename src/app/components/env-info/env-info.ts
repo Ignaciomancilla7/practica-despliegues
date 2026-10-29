@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-env-info',
-  styleUrl: './env-info.css',
+  standalone: true,
   templateUrl: './env-info.html',
+  styleUrl: './env-info.css'
 })
-export class EnvInfo {}
+export class EnvInfoComponent {
+  appName = 'Práctica de Despliegues';
+  welcome = 'Bienvenido a la aplicación';
+  environment = 'Entorno de producción';
+}
