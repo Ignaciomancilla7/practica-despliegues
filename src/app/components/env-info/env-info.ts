@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 export class EnvInfoComponent {
   appName = 'Práctica de Despliegues';
   welcome = 'Bienvenido a la aplicación';
-  environment = 'Entorno de producción';
+  environment = 'Entorno de aceptación UAT';
 }
