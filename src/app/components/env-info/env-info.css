@@ -1,0 +1,12 @@
+.env-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+.badge {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  background-color: #28a745; /* Verde para producción */
+}
